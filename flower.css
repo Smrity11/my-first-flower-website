@@ -44,6 +44,7 @@ body{
     height: auto;
     margin: 0 auto;
     text-align: center;
+    margin-top: 100px;
 }
 .section-title{
     margin: 0 auto;
@@ -94,4 +95,27 @@ background-color:rgba(59, 59, 55, 0.17) ;
 .section1-picture-text{
     text-decoration: underline;
     margin-top: 23px;
+}
+/* section1 end */
+
+/* section2 start */
+.section3{
+    width: 63%;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+  align-items: center;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.05);
+    justify-content: center;
+    justify-content: space-around;
+    color: rgb(62, 62, 62);
+    padding: 0px 90px;
+}
+.left-side-topic>img,
+.middle-topic>img,
+.right-side-topic>img{
+   height: 59px;
+   width: 59px;
 }
