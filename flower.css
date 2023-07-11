@@ -37,7 +37,7 @@ body{
 }
 /* header end */
 
-/* section1 start */
+/* section2 start */
 
 .section2{
     width: 100%;
@@ -96,9 +96,9 @@ background-color:rgba(59, 59, 55, 0.17) ;
     text-decoration: underline;
     margin-top: 23px;
 }
-/* section1 end */
+/* section2 end */
 
-/* section2 start */
+/* section3 start */
 .section3{
     width: 63%;
     height: 240px;
@@ -119,3 +119,112 @@ background-color:rgba(59, 59, 55, 0.17) ;
    height: 59px;
    width: 59px;
 }
+/* section3 end */
+/* section4 start */
+.section4{
+    width: auto;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding: 130px 250px;
+    background-color: rgba(232, 85, 117, 0.05);
+    border-radius: 7px;
+    align-items: center;
+}
+.section3-right-part>img{
+    width: 230px;
+    height: 320px;
+    margin-top: 20px;
+}
+.section3-left-part{
+    text-align: center;
+    width: 420px;
+}
+.section3-left-part>h3{
+    font-size: 29px;
+}
+.for-color-change{
+    color: #ba1212;
+}
+.section3-left-part>p{
+    color: rgb(91, 91, 91);
+    font-size: 12px;
+    line-height: 20px;
+}
+.section3-left-part>button{
+    background-color: #c51111;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+/*  */
+/*  */
+.section5{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 80px 80px;
+}
+.flowers4-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3px;
+    padding: 35px 50px;
+}
+.flowers4-div img:hover {
+    border: 1px solid grey;
+}
+.flower-div>img{
+    height: 280px;
+}
+/*  */
+/*  */
+.img-text-btn{
+    background-image: url("Flower Asset/Rectangle 9.png");
+  background-size: cover;
+  height: 350px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  align-items: center;
+  text-align: center;
+}
+#for-extra-margin{
+    padding-top: 100px;
+}
+#for-extra-margin>h3{
+    font-size: 25px;
+}
+#for-extra-margin>p{
+    font-size: 15px;
+    margin-top: -10px;
+}
+.input-button>input{
+    padding: 14px 5px;
+    width: 450px;
+    border: none;
+    background-color: white;
+    color: rgb(67, 67, 67);
+    border-radius: 7px  0px 0px 7px;
+    box-shadow: 3px 3px 20px red;
+}
+.input-button>button{
+    background: -moz-linear-gradient( 45deg, rgb(255, 8, 8),rgba(255, 86, 86, 0.9));
+    padding: 13px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 247, 0);
+    border: none;
+    margin-top: 15px;
+    border-radius: 0px 7px 7px 0px ;
+}
+/*  */
+/*  */
