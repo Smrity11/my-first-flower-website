@@ -217,7 +217,7 @@ background-color:rgba(59, 59, 55, 0.17) ;
     box-shadow: 3px 3px 20px red;
 }
 .input-button>button{
-    background: -moz-linear-gradient( 45deg, rgb(255, 8, 8),rgba(255, 86, 86, 0.9));
+    background:linear-gradient( 45deg, rgb(255, 8, 8),rgba(255, 86, 86, 0.9));
     padding: 13px 30px;
     font-size: 15px;
     font-weight: bold;
@@ -225,6 +225,7 @@ background-color:rgba(59, 59, 55, 0.17) ;
     border: none;
     margin-top: 15px;
     border-radius: 0px 7px 7px 0px ;
+    transition: .5s;
 }
 /*  */
 /*  */
